@@ -1,0 +1,19 @@
+$min : 0;
+
+
+html, body {
+  width: $max;
+  height: $max;
+  font-family: Arial, sans-serif;
+
+}
+
+.row {
+  margin: $min;
+}
+
+.column {
+
+  padding: $min;
+
+}

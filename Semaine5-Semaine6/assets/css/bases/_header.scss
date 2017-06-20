@@ -1,0 +1,41 @@
+$max : 100%;
+
+
+
+.page-header {
+  width: $max;
+  height: 50%;
+  background-color: #4c5b66;
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+
+.header-title {
+  color: white;
+  margin-left: 1%;
+}
+
+.block-text {
+  margin-top: 10%;
+  color: white;
+}
+
+.column-header-top--right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  margin-top: 2%;
+
+}
+
+.column-header-bot--left {
+  display: flex;
+  justify-content: center;
+}
+
+.block-img {
+  width: 29%;
+  height: auto;
+}

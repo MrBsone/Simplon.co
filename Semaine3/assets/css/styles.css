@@ -1,0 +1,460 @@
+html, body {
+    width: 100%;
+    height: auto;
+
+    margin: 0;
+    padding: 0;
+
+    background-color: #ffffff
+}
+
+body::before {
+    content: "";
+    width: 5px;
+    height: 100%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    background-color: #bababa;
+    border-right: 1px black solid;
+
+    z-index: 99;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+.column {
+
+}
+
+/***********/
+/** BLOCK **/
+/***********/
+#internship{
+		
+
+}
+.block {
+	
+	
+
+}
+
+.block__title {
+    display: inline-block;
+    position: relative;
+    padding: 0 100px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+
+    color: #ffffff;
+    
+
+    line-height: 44px;
+    font-size: 20px;
+    text-transform: uppercase;
+	
+}
+
+
+.block-title-xp {
+	
+	background: url("../img/xp.png") no-repeat;
+	background-size: cover;
+	
+}
+
+.block-title-stages {
+	background: url("../img/stage.png") no-repeat;
+	background-size: cover;	
+	
+}
+
+.block-title-form {
+	background: url("../img/formation.png")no-repeat;
+	background-size: cover;
+		
+}
+
+.block-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom:30px;
+	
+}
+
+.block-list__title {
+    font-weight: 600;
+
+    font-size: 20px;
+}
+
+.block-list__desc {
+    font-size: 18px;
+}
+
+/** ASIDE BLOCK **/
+.block__title--aside {
+
+    display: inline-block;
+    position: relative;
+    margin-left: -15px;
+    padding: 0 45px;
+    margin-bottom: 25px;
+
+    background: url("../img/titrecompetgrand.png");
+
+    line-height: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+
+.block-title-aside-langues::before {
+    content: url("../img/langue.png");
+	
+    
+}
+
+.block-title-aside-comp::before {
+	content: url("../img/competence.png");
+	
+}
+
+.block-title-aside-perso::before {
+	content: url("../img/personnalite.png");
+	
+	
+}
+
+.block-title-aside-perso::before,
+.block-title-aside-comp::before,
+.block-title-aside-langues::before {
+	height: 30px;
+    width: 40px;
+
+    position: absolute;
+    left: -110px;
+    top: 0;
+
+    background: rgba(153,153,153,1);
+    opacity: 0.8;	
+		
+}
+
+.block__content {
+	margin: 0 30px 30px 15px;
+
+}
+
+.block-item {
+    margin-bottom: 20px;
+}
+
+.block-item__img {
+    width: 70%;
+    height: 90px;
+	margin-bottom: 20px;
+	
+
+    display: inline-block;
+    position: relative;
+    left: 10%;
+
+    line-height: 20px;
+
+    
+    
+
+}
+
+.block-item__label {
+    width: 20%;
+    height: 20px;
+
+    display: inline-block;
+    position: relative;
+    left: 10%;
+
+    line-height: 20px;
+}
+
+.block-item__desc {
+    width: 60%;
+    height: 20px;
+
+    display: inline-block;
+    position: relative;
+    float: right;
+    right: 10%;
+
+}
+
+.progressBar {
+    width: 100%;
+    height: 100%;
+
+    background-color: #ffffff
+}
+
+/************/
+/** HEADER **/
+/************/
+
+.page-header {
+    margin: 0;
+    padding: 0;
+
+    position: relative;
+
+    border: none;
+
+}
+
+.header-bg {
+    width: 100%;
+    position: relative;
+    z-index: 50;
+}
+
+.column--left,
+.colum--right {
+    z-index: 10;
+}
+
+.column--left {
+}
+
+.column--right {
+
+    color: #ffffff;
+    background-color: #343b4a;
+}
+
+.header-column--left,
+.header-column--right {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.header-column--left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    color:#ffffff;
+
+    z-index:70;
+}
+
+.header-column--right {
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header-column--right::after {
+    content: "";
+
+    width: 15px;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #464e5e
+}
+
+.header-title {
+	margin-top:100px;
+    font-size:50px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+}
+.header-desc {
+    font-size:28px;
+    letter-spacing: 2px;
+}
+
+.header-img {
+    height:200px;
+    width:200px;
+
+    margin-bottom:50px;
+    background-color: #ffffff;
+
+    border-radius: 50%;
+    z-index: 60;
+
+}
+
+
+
+
+/**********/
+/** MAIN **/
+/**********/
+.page-main {
+    margin: 0;
+    padding: 0;
+}
+
+.main-column--left {
+    padding-right: 40px;
+    padding-left: 25px;
+}
+
+.main-column--right {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.main-column--right::before {
+    content: "";
+
+    width: 15px;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    background-color: #ffffff;
+}
+
+.main-column--right::after {
+    content: "";
+    height: 0;
+    width: 0;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    border-top: 15px solid #344253;
+    border-right: 15px solid transparent;
+}
+/************/
+/** FOOTER **/
+/************/
+.page-footer {
+    padding: 15px 3px 0 0;
+	
+
+}
+
+.footer-bg {
+    width: 100%;
+    position: relative;
+}
+
+.footer-column--left,
+.footer-column--right {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+	padding: 0;
+}
+
+.footer-column--left {
+}
+
+.footer-column--right {
+    right: 0;
+	
+	
+	
+}
+
+.footer-column--right::after {
+    content: "";
+
+    width: 15px;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    background-color: #ffffff
+}
+
+
+
+.footer-col-inside--left,
+.footer-col-inside--middle,
+.footer-col-inside--right {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+	
+    margin: 0;
+    padding: 0;
+}
+
+.footer-col-inside--left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.footer-col-inside--middle {
+    left:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+	
+}
+
+.footer-col-inside--right {
+    left:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+	
+}
+
+.footer-block {
+    width: 100%;
+    height: 35%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.footer-block__img {
+    width: 30%;
+    height: 70%;
+
+    position: relative;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-item: center;
+    
+    z-index: 60;
+}
+
+.footer-block__desc {
+    padding-left: 15px;
+	color: rgba(255,255,255,1);
+    font-size:16px;
+	z-index: 50;
+	
+	
+	
+}

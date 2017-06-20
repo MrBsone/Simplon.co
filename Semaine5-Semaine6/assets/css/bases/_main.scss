@@ -1,0 +1,85 @@
+
+/*****************/
+/***HEADER MAIN***/
+/*****************/
+.page-main {
+  width: $max;
+  height: $max;
+}
+
+.column-header--main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column-header--main--left,
+.column-header--main--middleleft,
+.column-header--main--right,
+.column-header--main--middleright,
+.column-main--top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 2%;
+}
+
+/****************/
+/****MAIN TOP****/
+/****************/
+
+.column-main--top--left,
+.column-main--top--middle,
+.column-header-top--right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h3, .block-button{
+  text-align: center;
+}
+
+
+/***************/
+/**MAIN MIDDLE**/
+/***************/
+
+.column-main--middle {
+  width: $max;
+
+}
+
+.carousel-inner,
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: $max;
+
+}
+
+#myCarousel {
+  height: 250px;
+}
+
+.first-slide,
+.second-slide,
+.third-slide {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/************/
+/**MAIN BOT**/
+/************/
+
+.column-main--bot {
+  margin:30px 5px;
+}
+
+
+

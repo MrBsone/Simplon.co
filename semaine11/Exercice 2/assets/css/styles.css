@@ -1,0 +1,23 @@
+html body{
+    width: 99%;
+    height: 100%;
+    background: url("../img/orig_232921.jpg") top left no-repeat;
+}
+.formulaire{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    border-radius: 50%;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    margin-right: 1%;
+    color: aliceblue;
+}
