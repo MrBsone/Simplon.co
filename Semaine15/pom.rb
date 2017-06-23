@@ -73,7 +73,7 @@ puts "Bravo vous avez gagné(e) en #{$nbcoups} tentative(s)"
                                        à la différence près que vous ne devez pas modifier leur valeur tout au long
                                        du programme.
         - def nomméthode(paramètres) = Ceci est une méthode (semblable à une fonction)
-        - gets                       = affiche la chaîne de caractères
+        - gets                       = récupère la chaîne de caractères
         - .chomp                     = supprime les chaînes de caractères \n et \r
         - .to_i                      = retourne un entier
 
@@ -92,13 +92,9 @@ Les méthodes sont similaires aux fonctions à quelques détails près :
 
 /////
 
-.chomp est généralement utilisé pour éviter la casse. Lorsqu'on appuis sur la touche ENTREE celle-ci envois une chaîne
-de caractères :
-
-        - \r pour un retour à la ligne (carriage return)
-        - \n signifie début d'une nouvelle ligne
-
-.chomp sert à les effacer de l'affichage
+Lors de l'entrée, Ruby ajoute automatiquement une ligne vierge (ou nouvelle ligne) après chaque bit d'entrée;
+Chomp supprime cette ligne supplémentaire. (Votre programme fonctionnera bien sans chomp, mais vous obtiendrez
+des lignes vierges supplémentaires partout.)
 
 /////
 =end
